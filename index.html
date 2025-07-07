@@ -4,32 +4,29 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Buy Me a Chai</title>
-  <meta name="description" content="Support me by buying a chai!" />
-  <meta name="author" content="Your Name" />
-  <meta name="keywords" content="Buy Me a Chai, Donation, Coffee Project, HTML CSS JS" />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/415/415733.png" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/415/415733.png" type="image/png" />
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
 
-  <!-- AOS Animation CSS -->
+  <!-- Font Awesome (for icons) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- AOS Animation -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-  <!-- 🌐 Open Graph Meta Tags (For Social Sharing) -->
-<meta property="og:title" content="Buy Me a Chai ☕ | Support My Work" />
-<meta property="og:description" content="Enjoying my work? Support me by buying a cup of chai!" />
-<meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/415/415733.png" />
-<meta property="og:url" content="https://vivek12610.github.io/Project-Buy-me-a-coffee/" />
-<meta property="og:type" content="website" />
-
-<!-- 🐦 Twitter Card Tags -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Buy Me a Chai ☕ | Support My Work" />
-<meta name="twitter:description" content="Support my content by buying me a chai!" />
-<meta name="twitter:image" content="https://cdn-icons-png.flaticon.com/512/415/415733.png" />
-
+  <!-- Open Graph for Social Sharing -->
+  <meta property="og:title" content="Buy Me a Chai ☕ | Support My Work" />
+  <meta property="og:description" content="Enjoying my work? Support me by buying a cup of chai!" />
+  <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/415/415733.png" />
+  <meta property="og:url" content="https://vivek12610.github.io/Project-Buy-me-a-coffee/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Buy Me a Chai ☕ | Support My Work" />
+  <meta name="twitter:description" content="Support my content by buying me a chai!" />
+  <meta name="twitter:image" content="https://cdn-icons-png.flaticon.com/512/415/415733.png" />
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css" />
@@ -44,7 +41,7 @@
     <span class="mode-label" id="mode-label">🌙 Dark Mode</span>
   </div>
 
-  <!-- ☕ Main Section with Animations -->
+  <!-- ☕ Main Content -->
   <div class="main-container">
     <div class="card" data-aos="fade-up">
       <img src="https://cdn-icons-png.flaticon.com/512/415/415733.png" alt="Chai Cup" class="coffee-img" data-aos="zoom-in" />
@@ -54,13 +51,21 @@
     </div>
   </div>
 
-  <!-- AOS JS and Custom Script -->
+  <!-- 📍 Floating Social Share Buttons -->
+  <div class="floating-share">
+    <a href="https://wa.me/?text=Support%20me%20by%20buying%20a%20chai!%20https://vivek12610.github.io/Project-Buy-me-a-coffee/" target="_blank" class="share-btn whatsapp" title="Share on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://twitter.com/intent/tweet?text=Buy%20me%20a%20chai!&url=https://vivek12610.github.io/Project-Buy-me-a-coffee/" target="_blank" class="share-btn twitter" title="Share on Twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </div>
+
+  <!-- AOS + JS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
-
-  <!-- Dark Mode Toggle Script -->
   <script src="script.js"></script>
 </body>
 </html>
